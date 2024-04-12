@@ -50,3 +50,5 @@ const login = () => {
 }
  
   login();
+  let name 
+  const getLName=(name)=> name.split ("")[1];
