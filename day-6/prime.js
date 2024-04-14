@@ -21,7 +21,7 @@ console.log(truncate(
 )
 );
 // anonymous function 
-const sayHi = functon (){};
+
 // IIFE immediate invoked functionaal expression
 ( function () {
     console.log ("hey1");
