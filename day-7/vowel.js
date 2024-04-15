@@ -14,13 +14,11 @@ const vowel =()=>{
 
 
 };
-vowel();
-const system =()=>{
-const name="nischal mainali";
-const splitString = name.split(" ");
-const words =name.split('');
+// write a js function to change "nischal mainali " to "Nischal Mainali"
+const capitalizeWords = function(str) {
+    return str.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+};
 
-for (let i=1;i=>name.length,i++){
-    
-}
-}
+const name = "nischal mainali";
+const capitalized = capitalizeWords({name});
+console.log(capitalized);

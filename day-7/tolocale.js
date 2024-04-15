@@ -16,7 +16,8 @@ const valid = ()=> {
     }
 }
 valid();
-// write a js function to change "nischal mainali " to "Nischal Mainali"
+
+
 
 
 
